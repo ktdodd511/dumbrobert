@@ -25,7 +25,7 @@
         </router-link>
       </v-toolbar-title>
       <v-spacer>
-        <v-toolbar-items class="hidden-xs-only">
+        <v-toolbar-items style="float: right" class="hidden-xs-only">
           <v-btn
             flat
             v-for="item in menuItems"

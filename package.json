@@ -1,7 +1,7 @@
 {
-  "name": "demo-app",
+  "name": "dumb-robert",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "A Website for Robert",
   "author": "katiedodd <ktdodd511@gmail.com>",
   "private": true,
   "scripts": {

@@ -1,6 +1,11 @@
 <template>
   <v-container fluid>
     <v-layout column>
+      <v-flex xs12 class="text-xs-center">
+        <img :src="require('../assets/logo.png')" />
+      </v-flex>
+    </v-layout>
+    <v-layout column>
       <v-flex xs12 class="text-xs-center" mt-5>
         <h1>Services</h1>
       </v-flex>
