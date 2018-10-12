@@ -2,15 +2,23 @@
   <v-container fluid>
     <v-layout row wrap>
       <v-flex xs12 class="text-xs-center" mt-5>
-        <h1>Welcome to Robert's App</h1>
-      </v-flex>
-      <v-flex xs12 sm6 offset-sm3 mt-3>
-        <blockquote class="blockquote text-xs-center">
-          It's a basic Single Page application <br>
-          with Google Firebase authentication
-        </blockquote>
+        <h1>Local Service</h1>
       </v-flex>
     </v-layout>
+
+      <v-layout column>
+        <v-flex xs6 mt-5>
+          <router-link to="/dumpsters" tag="span" style="cursor: pointer">
+            <img :src="require('../assets/dumpster.png')" />
+          </router-link>
+        </v-flex>
+        <v-flex xs6 mt-5>
+          <router-link to="/storage-containers" tag="span" style="cursor: pointer">
+            <img :src="require('../assets/storage.png')" />
+          </router-link>
+        </v-flex>
+      </v-layout>
+
   </v-container>
 </template>
 
