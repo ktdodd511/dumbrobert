@@ -6,7 +6,12 @@ const routerOptions = [
   { path: '/services', component: 'Services' },
   { path: '/contact', component: 'Contact' },
   { path: '/dumpsters', component: 'Dumpsters' },
-  { path: '/storage-containers', component: 'Storage' }
+  { path: '/storage-containers', component: 'Storage' },
+  { path: '/portable-toliets', component: 'Portable' },
+  { path: '/equipment-rental', component: 'Equipment' },
+  { path: '/debris-removal', component: 'Debris' },
+  { path: '/recycling-services', component: 'Recycle' },
+  { path: '/temporary-fencing', component: 'Fencing' }
 ]
 
 const routes = routerOptions.map(route => {

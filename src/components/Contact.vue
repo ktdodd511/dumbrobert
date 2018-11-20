@@ -6,7 +6,7 @@
       </v-flex>
       <v-flex xs12 mt-3>
         <blockquote class="blockquote text-xs-center mt-5">
-          bobby.dodd10@gmail.com
+          email <b>bobby.dodd10@gmail.com</b> or call <b>770-842-2489</b>
         </blockquote>
       </v-flex>
     </v-layout>
