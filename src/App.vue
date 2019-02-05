@@ -37,6 +37,14 @@
     <router-view></router-view>
     </v-content>
 
+    <footer class="page-footer font-small gray">
+
+      <div class="footer-copyright text-center py-3">© 2019 |
+        Jobsite Equipment Logistics
+      </div>
+
+    </footer>
+
   </v-app>
 </template>
 

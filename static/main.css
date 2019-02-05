@@ -1,4 +1,4 @@
-#app {
+#agapp {
   /* background: url(construction-site.png); */
   background-color: rgba(51, 170, 51, .1);
 }
@@ -9,10 +9,41 @@
   border-radius: 100px;
 }
 
+#dumpster-image {
+  width: 100%;
+}
+
+#debris-image {
+  height: 400px;
+  width: 600px;
+}
+
+#storage-image, #equipment-image {
+  width: 400px;
+}
+
+#recycling-image {
+  width: 400px;
+}
+
+.background-services h2 {
+  padding: 10px;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 .services {
-  margin-left: 100px;
   margin-top: 75px;
+}
+
+.gray {
+  background-color: #D3D3D3;
+  color: #191919;
 }
 
 #main-image {
@@ -49,4 +80,20 @@
   opacity: .2;
   width: 100%;
   position: absolute;
+}
+
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #0000FF !important;
+}
+
+.contact-btn {
+  text-decoration: none !important;
+  color: #00FFFF !important;
 }
